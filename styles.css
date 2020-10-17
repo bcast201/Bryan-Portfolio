@@ -1,0 +1,126 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.parallax {
+    background-color: #4B0082;
+    background-image: linear-gradient(to bottom right,#4B0082, #202020);
+    background-image: url('img/Lincoln.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerBox {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    padding: 25px;
+    text-align: center;
+    background-color: #222;
+    border-radius: 5%;
+    color: white;
+    transform: translate(50%, -50%);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.header{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+      font-size: 25px;
+    }
+  }
+
+.subHeader{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .subHeader {
+      font-size: 15px;
+    }
+  }
+
+.software{
+    background: #222;
+    height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    .software {
+      height: 125px;
+    }
+  }
+
+.software-header{
+    color: white;
+    left:50%;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .software-header {
+      font-size: 15px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+
+.software-logo{
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.logo{
+    max-width: 50px;    
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+      max-width: 25px;
+    }
+  }
+
+.software-names{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .software-names {
+        font-size: 8px;
+    }
+  }
+
+
+
+.parallax2 {
+    background-color: #4B0082;
+    background-image: linear-gradient(to bottom right,#4B0082, #202020);
+    background-image: url('img/Downtown.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
