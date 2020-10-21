@@ -13,6 +13,23 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+<nav class='navbar sticky-top navbar-expand-lg navbar-dark bg-dark'>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/bryan-cast-310b1094/" target='_blank'>LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="img/Bryan_Cast_Resume.PDF" target="_blank">Resume</a>
+          </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Intro to page -->
 
 <div class='container-flex parallax'>
     <div class='row headerBox'>
@@ -21,6 +38,9 @@
     </div>
 
 </div>
+
+<!-- developed using section -->
+
 <div class='container-flex software'>
     <div class='row software-header'>
         <div class='col-sm software-title'>
@@ -68,31 +88,42 @@
         </div>
     </div>
 
-    <!-- blah blah blah -->
+    <!-- Portfolio Card -->
 
 
 </div>
 
 <div class='container-flex parallax2'>
-    <div class='card mx-auto card-style mb-3' style='width:40rem'>
-        <img class='card-img-top' src="img/BreweryFinder.png" alt='brewery finder thumbnail'>
+    <div class='card mx-auto card-style mb-3' style='max-width:40rem'>
+        <a href="https://bcast201.github.io/BreweryFinder/" target='_blank'><img class='card-img-top img-fluid' src="img/BreweryFinder.png" alt='brewery finder thumbnail'></a>
         <div class='card-body'>
             <h5 class='car-title'>Brewery Finder!</h5>
             <p class='card-text'>A simple brewery lookup application. Enter your city and search an online database to receive a list of breweries in your area.</p>
+            <a href="https://github.com/bcast201/BreweryFinder" target='_blank' class="card-link"><img class='github-thumb' src='img/github-full.png'></a>
         </div>
     </div>
-    <div class='card mx-auto card-style mb-3' style='width:40rem'>
-        <img class='card-img-top' src="img/dtdelismall.png" alt='downtown-deli-thumbnail'>
+    <div class='card mx-auto card-style mb-3' style='max-width:40rem'>
+        <a href="https://bcast201.github.io/Dannys-Downtown-Deli/" target='_blank'><img class='card-img-top img-fluid' src="img/dtdelismall.png" alt='portfolio thumbnail'></a>
         <div class='card-body'>
             <h5 class='car-title'>Downtown Deli</h5>
             <p class='card-text'>A practice website for Downtown Deli restaurant in Lincoln. Built with react.</p>
+            <a href="https://github.com/bcast201/Dannys-Downtown-Deli" target='_blank' class="card-link"><img class='github-thumb' src='img/github-full.png'></a>
         </div>
     </div>
-    <div class='card mx-auto card-style mb-3' style='width:18rem'>
-        <img class='card-img-top img-resize' src="img/androidscreenshot.png" alt='downtown-deli-mobile app'>
+    <div class='card mx-auto card-style mb-3' style='max-width:40rem'>
+        <a href="https://bcast201.github.io/Bryan-Portfolio/" target='_blank'><img class='card-img-top img-fluid' src="img/portfolio-thumbnail.png" alt='downtown-deli-thumbnail'></a>
+        <div class='card-body'>
+            <h5 class='car-title'>This Portfolio!</h5>
+            <p class='card-text'>Here's a link to the github repo for this portfolio website. Built with Bootstrap</p>
+            <a href="https://github.com/bcast201/Bryan-Portfolio" target='_blank' class="card-link"><img class='github-thumb' src='img/github-full.png'></a>
+        </div>
+    </div>
+    <div class='card mx-auto card-style mb-3' style='max-width:20rem'>
+        <a href="https://github.com/bcast201/Downtown-Deli" target='_blank'><img class='card-img-top img-fluid' src="img/androidscreenshot.png" alt='downtown-deli-mobile app'></a>
         <div class='card-body'>
             <h5 class='car-title'>Downtown Deli Mobile App</h5>
             <p class='card-text'>A mobile application version of the same practice website above built with react native.</p>
+            <a href="https://github.com/bcast201/BreweryFinder" target='_blank' class="card-link"><img class='github-thumb' src='img/github-full.png'></a>
         </div>
     </div>
 </div>
