@@ -8,7 +8,7 @@ body{
 
 .parallax {
     background-color: #222;
-    background-image: url('img/Lincoln.jpg');
+    background-image: url('img/lincoln_optimized.webp');
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -117,7 +117,7 @@ body{
 
 .parallax2 {
     background-color: #222;
-    background-image: url('img/Downtown.jpg');
+    background-image: url('img/downtown_optimized.webp');
     height: auto;
     background-attachment: fixed;
     background-position: center;
