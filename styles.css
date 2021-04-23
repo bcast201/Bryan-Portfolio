@@ -31,6 +31,10 @@ body{
 
 }
 
+.main-box{
+  margin-top: 25px;
+}
+
 .header{
     color: white;
     font-size: 50px;
@@ -134,4 +138,6 @@ body{
 .github-thumb{
   max-width: 70px;  
 }
+
+
 
