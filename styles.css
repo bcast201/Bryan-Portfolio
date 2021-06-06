@@ -45,14 +45,11 @@ body{
 
 @media screen and (max-width: 600px) {
     .header {
-      font-size: 25px;
+      font-size: 30px;
     }
     .parallax{
-      /*     */
       background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
     }
-
-
   }
 
 .subHeader{
@@ -64,6 +61,12 @@ body{
 @media screen and (max-width: 600px) {
     .subHeader {
       font-size: 15px;
+    }
+    .headerBox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1;
     }
   }
 
