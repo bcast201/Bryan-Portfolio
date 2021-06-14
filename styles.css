@@ -43,14 +43,7 @@ body{
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-    .header {
-      font-size: 30px;
-    }
-    .parallax{
-      background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
-    }
-  }
+
 
 .subHeader{
     color: white;
@@ -150,5 +143,16 @@ body{
   max-width: 70px;  
 }
 
+@media screen and (max-width: 800px) {
+  .header {
+    font-size: 30px;
+  }
+  .parallax {
+    background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+  }
+  .parallax2{
+    background-image: linear-gradient(315deg, dimgray, grey 74%);
+  }
+}
 
 
